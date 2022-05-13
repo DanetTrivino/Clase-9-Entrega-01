@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,300;1,500&display=swap" rel="stylesheet" />
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/" />
+
+        <style>
+            <style>
+
+              @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+
+              :root {
+                  --bs-body-font-family: "Poppins", sans-serif;
+                  --bs-body-color: #eef;
+                  --bs-body-bg: #006666;
+              }
+              body {
+                  background-color: #006666;
+              }
+
+              :root {
+                  --bs-body-color: #eee;
+                  --bs-body-bg: #000;
+              }
+
+              body {
+                  font-weight: 300;
+                  font-family: "Poppins", sans-serif;
+              }
+
+              header h1 {
+                  font-family: "Poppins", sans-serif;
+                  color: offwhite;
+                  font-weight: 500;
+                  font-size: 2.5rem;
+              }
+              header h2 {
+                 font-family: "Poppins", sans-serif;
+                  font-weight: 300;
+                  color: rgba(255, 255, 255, 0.5);
+              }
+              header h3 {
+                  font-weight: 300;
+              }
+
+              p {
+                font-family: "Poppins", sans-serif, italic;
+                color: offwhite;
+                font-weight: 300;
+                font-size: 1 rem;
+              }
+        </style>
+
+        <title>Entrega 01 - Danet Triviño</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="collapse bg-dark-green" id="navbarHeader">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-md-7 py-4">
+                            <h4 class="text-white">Acerca de...</h4>
+                            <p class="text-white">
+                                Entrega número uno del electivo de Introducción al Desarrollo Front End con HTML, CSS y JavaScript de la Facultad de Urbanismo, Universidad de Chile.
+                            </p>
+                        </div>
+
+                        <div class="col-sm-4 offset-md-1 py-4">
+                            <h4 class="text-white">Contacto</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-white">NoTengoTwitter</a></li>
+                                <li><a href="#" class="text-white">@danet_trivino</a></li>
+                                <li><a href="#" class="text-white">danet.trivino@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar navbar-dark bg-dark-green shadow-sm">
+                <div class="container">
+                    <a href="#" class="navbar-brand d-flex align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path
+                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                            />
+                        </svg>
+
+                        <strong>Aves Chilenas</strong>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="container">
+            <div class="container-fluid g-5">
+                <div id="probandoCarrusel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/FotoHeader.jpg" class="d-block w-100" />
+                            <!-- </div>
+                        <div class="carousel-item">
+                            <img src="img/FotoHeader2.jpg" class="d-block w-100" /> -->
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/FotoHeader3.jpg" class="d-block w-100" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/FotoHeader4.jpg" class="d-block w-100" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/FotoHeader5.jpg" class="d-block w-100" />
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#probandoCarrusel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#probandoCarrusel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!--  <div class="container-fluid" style="background-image: url(FotoHeader2.jpg); background-repeat: no-repeat; background-position: center; background-size: fit;"> -->
+            <div class="row h-100">
+                <div class="div text-center my-auto">
+                    <p>
+                        <br />
+                        <br />
+                    </p>
+                    <h1 class="display-4 text-center py-2">Las aves de Chile</h1>
+                    <h2 class="text-light">Un vistazo a nuestras especies nativas</h2>
+
+                    <p>
+                        <br />
+                        <br />
+                    </p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
+                        <p class="lead">
+                            Las aves silvestres son una pieza clave en el marco de la biodiversidad de Chile. Gracias a sus cantos y comportamientos, es posible vincularnos con ellas tanto en ambientes urbanos como rurales. La observación
+                            de las aves permite involucrarnos en una aventura que enriquece el conocimiento de la naturaleza y fomenta su cuidado.
+                        </p>
+
+                        <br />
+                        <br />
+
+                        <p>
+                            ¿Qué son las aves?<br />
+                            <br />
+                            Las aves son animales vertebrados que, salvo exepciones, pueden volar. Poseen un cuerpo corto, fuerte y compacto, y los órganos internos están protegidos por el esternón y la pelvis. El primero es ancho y
+                            aplanado lateralmente, para el anclaje de los grandes músculos del vuelo, los pectorales. Las patas son fuertes y elásticas, y musculosas donde se unen al cuerpo. Deben proporcionar impulso para el despegue y
+                            amortiguar el aterrizaje. Las alas de las aves se son analogas a los brazos humanos, pero en éstas la mayoría de los huesos de los dedos están ausentes. Las alas portan las plumas que son utilizadas para volar,
+                            pero se pliegan en reposo. Al no tener manos, su pico está adaptado para comer. La cola es una corta hilera de huesos que soportan las plumas caudales (Harrison y Smith, 1994). <br />
+                        </p>
+                        <p>
+                            Toda la información utilizada se puede encontrar en el<a href="https://github.com/DanetTrivino/Clase-8/blob/main/Datos%20Aves.csv" target="_blank" class="link-light"> siguiente registro</a> y
+                            <a href="https://www.avesdechile.cl/" target="_blank" class="link-light">página web</a> dedicada al estudio del tema.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion mx-md-5 my-5 rounded-0" id="accordionExample">
+                <!--Zonas-->
+                <div class="accordion-item rounded-0">
+                    <h2 class="accordion-header bg-dark" id="headingOne">
+                        <button class="accordion-button rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Especies de aves según zonas...</button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-black-50">
+                            <p>Se separaron en zonas las distintas regiones del país, registrando incluso las especies repetidas.</p>
+                            <canvas id="acumuladas" width="100" height="100" class="m-5"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <!--Clasificaciónes específicas-->
+                <div class="accordion-item rounded-0">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Algunas clasificaciónes específicas...</button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-black-50">
+                            <p>Éste gráfico nos demuestra que la mayoría de las especies son naturales de Chile.</p>
+                            <canvas id="mundo" width="100" height="100" class="m-5"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <!--Categorías por grado de extinción-->
+                <div class="accordion-item rounded-0">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Los grados de extinción de nuestras aves...
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-black-50">
+                            <p>En el siguiente gráfico se puede apreciar que la gran mayoría de nuestras especies no se encuentra en peligro, sin embargo una gran cantidad de aves se encuentra avanzando hacia el estado de amenaza.</p>
+                            <canvas id="chile" width="100" height="100" class="m-5"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <!--cambios en el tiempo-->
+                <div class="accordion-item rounded-0">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Cambios en el tiempo...</button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-black-50">
+                            <p>Aqui se muestran los cambios en las poblaciones de aves a lo largo del tiempo.</p>
+                            <canvas id="eu" width="100" height="100" class="m-5"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="accordion-item rounded-0">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Cambios en el tiempo...</button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-black-50">
+                            <p>Aqui se muestran los cambios en las poblaciones de aves a lo largo del tiempo.</p>
+                            <canvas id="usa" width="100" height="100" class="m-5"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <!--Fin-->
+            </div>
+            <div class="row">
+                <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
+                    <p>Hice de todo y simplemente no pude entender los gráficos ni hacer que funcionaran...</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col"><p class="text-muted mt-5 text-center small">Bootstrap v5.1 y Charts.js</p></div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Biblioteca de Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!-- Biblioteca Chart.js -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"
+            integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script>
+            async function todo() {
+                const consulta = await fetch("https://raw.githubusercontent.com/jota-pe-ge/datos/main/datos.json");
+                const data = await consulta.json();
+                console.log(data);
+                //variables
+                var  = 0;
+                var  = 0;
+                var  = 0;
+                var  = 0;
+
+                data.forEach((d) => {
+                    if (d.categoría == "88") {
+                        categoría1 = categoría1 + 1;
+                    } else if (d.categoría == "13") {
+                        categoría2 = categoría2 + 1;
+                    } else if (d.categoría == "7") {
+                        categoría3 = categoría3 + 1;
+                    } else if (d.categoría == "3") {
+
+                });
+
+                //tracks de cada album
+                new Chart(document.getElementById("miGrafico1").getContext("2d"), {
+                    type: "pie",
+                    data: {
+                        labels: ["(A) Accidental", "(E) Endémica", "(I) Introducida", "(H) Hipotética"],
+                        datasets: [{ data: [album1, album2, album3, album4, album5, album6], label: "Categorías", backgroundColor: ["#f4f1de", "#e07a5f", "#81b29a", "#3d405b", "#f2cc8f"] }],
+                    },
+                    options: {
+                        animation: false,
+                        layout: {
+                            padding: 10,
+                        },
+                    },
+                });
+            }
+
+            todo().catch((error) => console.error(error));
+        </script>
+    </body>
+</html>
